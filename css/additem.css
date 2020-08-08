@@ -1,0 +1,94 @@
+/** {
+  margin: 0px;
+  padding: 0px;
+}*/
+body {
+  font-size: 120%;
+  background: #FFFFFF;
+}
+
+.header {
+  width: 100%;
+  margin: 0px auto 0px;
+  color: white;
+  background: #00FFFF;
+  text-align: center;
+  border: 1px solid #B0C4De;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px;
+}
+.content {
+  width: 98.5%;
+  /*margin: 0px auto;.*/
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: #AB95BC;
+  border-radius: 0px 0px 10px 10px;
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #5F9EA0;
+  border: none;
+  border-radius: 5px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+   padding: 0 15px;
+   margin: 0 15px;
+   font-family: lato, sans-serif, arial;
+}
+.ui-jqgrid-htable th,
+.ui-jqgrid tr.jqgrow td{ 
+    text-transform: ; 
+}
+.ui-jqgrid-htable th div{
+    font-weight: bold;
+}
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3FC300;
+}
+
+#menu ul li {
+    float: left;
+}
+
+#menu  ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#menu  ul li a:hover,
+#menu .active {
+    background-color: #ddd;
+    color:black;
+}
+
+
+
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
